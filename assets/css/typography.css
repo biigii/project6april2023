@@ -2,8 +2,16 @@ h1 {
   font-size: 4em;
   text-align: center;
   text-transform: uppercase;
+  color: var(--secondary-color);
 }
 
 .about h1 {
   text-decoration: underline;
+}
+
+.sub-heading {
+  font-size: 2em;
+  text-align: center;
+  color: var(--brand-colour);
+  text-transform: capitalize;
 }

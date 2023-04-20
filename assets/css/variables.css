@@ -1,0 +1,8 @@
+/* you can think of :root as html */
+:root {
+  /* defining some variables */
+   --brand-colour: #ebd50a;
+   --secondary-color: #c8372a;
+   --site-width: 1300px;
+   /* --brand-font: */
+}
