@@ -6,22 +6,30 @@
   padding: 0 5px
 }
 
-p {
-  border: 2px dashed;
-}
-
 .col-6 {
-  /* 12 divided by 2 = 6 , 100% divided by 2 = 50%*/
-   width: 50%;
-   float: left;
+  float: left;
+  width: 50%;
+  padding: 10px;
+} 
+
+/* .clearfix {
+  clear: left;
+} */
+
+section.wrapper::after {
+    content: '';
+    clear:both;
+    display: block;
 }
 
 .col-3 {
   width: 25%;
-  float: left;
+  float: right;
+  padding: 10px;
 }
 
-.col-4 {
-  width: 33.33%;
+.col-2 {
+  width: 16.66%;
   float: left;
+  padding: 10px;
 }
