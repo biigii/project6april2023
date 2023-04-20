@@ -1,0 +1,33 @@
+header {
+  height: 150px;
+  background-color: hsl(255, 4%, 21%);
+}
+
+nav.navigation {
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.5em;
+  text-transform: capitalize;
+  margin: 0 10px;
+  transition-property: color;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.navigation a:hover {
+  color: rgb(86, 119, 63)
+}
+
+.contact header {
+  background-color: hsl(253, 16%, 53%);
+}
+
+.contact .navigation a {
+  color: rgb(217, 0, 255)
+}
